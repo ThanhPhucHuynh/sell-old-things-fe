@@ -32,6 +32,13 @@ module.exports = {
       },
     ],
     'import/newline-after-import': 1,
+    'react/function-component-definition': [
+      2,
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
   },
   parserOptions: {
     project: './tsconfig.eslint.json',

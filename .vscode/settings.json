@@ -3,5 +3,11 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "emmet.includeLanguages": {
+        "postcss": "css"
+    },
+    "css.customData": [
+        ".vscode/css_custom_data.json"
+    ]
 }
