@@ -55,4 +55,4 @@ ENV PORT 3000
 CMD ["node", "server.js"]
 
 # docker build -t sell-old-things-docker .
-# docker run -p 3000:3000 sell-old-things-docker .
+# docker run -p 3000:3000 sell-old-things-docker
