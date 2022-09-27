@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.eslintcache
+# unit test
+cypress/videos
+cypress/screenshots
+__snapshots__/

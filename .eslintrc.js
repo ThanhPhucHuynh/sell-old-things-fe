@@ -39,6 +39,26 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    '@typescript-eslint/no-unused-vars': ['error'],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/*.test.tsx', '**/*.spec.js'],
+      },
+    ],
+    'import/extensions': [
+      'error',
+      'always',
+      {
+        pattern: {
+          '': 'never',
+          js: 'never',
+          jsx: 'never',
+          ts: 'never',
+          tsx: 'never',
+        },
+      },
+    ],
   },
   parserOptions: {
     project: './tsconfig.eslint.json',
@@ -49,6 +69,7 @@ module.exports = {
     },
     'import/resolver': {
       typescript: {
+        alwaysTryTypes: true,
         project: './tsconfig.eslint.json',
       },
     },
