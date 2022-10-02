@@ -40,10 +40,11 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-unused-vars': ['error'],
+    'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/*.test.tsx', '**/*.spec.js'],
+        devDependencies: ['**/*.test.tsx', '**/*.spec.js', '**/*.test.ts'],
       },
     ],
     'import/extensions': [
