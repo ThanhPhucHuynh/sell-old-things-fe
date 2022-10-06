@@ -62,7 +62,7 @@ module.exports = {
     ],
   },
   parserOptions: {
-    project: './tsconfig.eslint.json',
+    project: ['./tsconfig.eslint.json', './public/firebase-messaging-sw.js'],
   },
   settings: {
     'import/parsers': {
