@@ -1,6 +1,7 @@
 next.config.mjs
 tailwind.config.js
 postcss.config.js
+public/firebase-messaging-sw.js
 jest.setup.js
 jest.config.js
 cypress\*
